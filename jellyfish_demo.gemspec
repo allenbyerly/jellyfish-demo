@@ -1,4 +1,4 @@
-$:.push File.expand_path('../lib', __FILE__)
+  $:.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
 require 'jellyfish_demo/version'
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = JellyfishDemo::VERSION
   s.authors     = ['Jerimiah Milton']
   s.email       = ['milton_jerimiah@bah.com']
-  s.homepage    = 'http://github.com/projectjellyfish/jellyfish-demo'
+  s.homepage    = 'http://github.com/allenbyerly/jellyfish-demo'
   s.summary     = 'Adds sample data to Jellyfish.'
   s.description = 'Gives the ability to add different sets of sample data to Jellyfish.'
   s.license     = 'MIT'
